@@ -1,0 +1,6 @@
+usr/local/bin/xeon-qt usr/bin
+share/pixmaps/xeon32.xpm usr/share/pixmaps
+share/pixmaps/xeon16.xpm usr/share/pixmaps
+share/pixmaps/xeon128.png usr/share/pixmaps
+debian/xeon-qt.desktop usr/share/applications
+debian/xeon-qt.protocol usr/share/kde4/services/

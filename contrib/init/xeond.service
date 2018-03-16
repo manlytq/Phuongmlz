@@ -1,0 +1,22 @@
+[Unit]
+Description=Xeon's distributed currency daemon
+After=network.target
+
+[Service]
+User=xeoncore
+Group=xeoncore
+
+Type=forking
+PIDFile=/var/lib/xeond/xeond.pid
+ExecStart=/usr/bin/xeond -daemon -pid=/var/lib/xeond/xeond.pid \
+-conf=/etc/xeoncore/xeon.conf -datadir=/var/lib/xeond -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

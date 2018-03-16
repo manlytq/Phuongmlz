@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Xeon
+Comment=Xeon P2P Cryptocurrency
+Comment[fr]=Xeon, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Xeon, eşten eşe kriptografik sanal para birimi
+Exec=xeon-qt %u
+Terminal=false
+Type=Application
+Icon=xeon128
+MimeType=x-scheme-handler/xeon;
+Categories=Office;Finance;

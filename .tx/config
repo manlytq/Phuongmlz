@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[xeon.qt-translation-012x]
+file_filter = src/qt/locale/xeon_<lang>.ts
+source_file = src/qt/locale/xeon_en.ts
+source_lang = en
